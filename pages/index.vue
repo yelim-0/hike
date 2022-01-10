@@ -4,6 +4,7 @@
       
       <!-- 메인 문구 -->
       <!--if media query: -->
+      <div class="px-14">
         <div class="hidden md:block">
             <div class="my-72 flex flex-row justify-center">
                 <div class="w-68 h-60 pr-11 border-r-2">
@@ -31,15 +32,16 @@
                 </div>
             </div>
         </div>
+      </div>
 
       <!-- Research Subjects -->
       <div class="pt-16 md:pt-24 flex justify-center items-center max-w-6xl mx-auto px-6 pb-12 md:pb-16">
-        <div class="text-3xl md:text-4xl text-gray-800 font-medium poppins pb-3 border-b-4 border-violet-400">Research Subjects</div>
+        <div class="text-xl md:text-4xl text-gray-600 text-center font-medium poppins pb-3 border-b-4 border-violet-400">Research Subjects</div>
       </div>
 
       <div class="max-w-6xl mx-auto px-6 pt-5 mb-16">
         
-        <div class="hidden md:block px-32">
+        <div class="hidden md:block px-20">
           <div class="grid grid-cols-2 gap-y-8 gap-x-14">
             <div class="research-box">
                 <div class="p-5">
@@ -72,31 +74,44 @@
             <div class="research-card">
               <div class="mb-4">
                 <p class="text-base text-gray-700 font-bold pt-1 mb-2">Knowledge graph</p>
-                <p class="text-gray-600 pt-1 ftmore mb-1">A knowledge graph is created by a significant endeavor. We study various techniques required to build large-scale data into knowledge graphs.</p>
+                <p class="text-gray-600 pt-1 mb-1">A knowledge graph is created by a significant endeavor. We study various techniques required to build large-scale data into knowledge graphs.</p>
               </div>
             </div>
             <div class="research-card">
               <div class="mb-4">
                 <p class="text-base text-gray-700 font-bold pt-1 mb-2">Data Science</p>
-                <p class="text-gray-600 pt-1 ftmore mb-1">Data science is a method for inferring and gaining knowledge and insight from data. We understand large-scale data socially and scientifically and conduct various researches for problem solving.</p>
+                <p class="text-gray-600 pt-1 mb-1">Data science is a method for inferring and gaining knowledge and insight from data. We understand large-scale data socially and scientifically and conduct various researches for problem solving.</p>
               </div>
             </div>
             <div class="research-card">
               <div class="mb-4">
                 <p class="text-base text-gray-700 font-bold pt-1 mb-2">Artificial Intelligence</p>
-                <p class="text-gray-600 pt-1 ftmore mb-1">Artificial intelligence is a key technology for learning and processing data. We conduct various studies to understand text and analyze its meaning.</p>
+                <p class="text-gray-600 pt-1 mb-1">Artificial intelligence is a key technology for learning and processing data. We conduct various studies to understand text and analyze its meaning.</p>
               </div>
             </div>
             <div class="research-card">
               <div class="mb-4">
                 <p class="text-base text-gray-700 font-bold pt-1 mb-2">Data-driven Research</p>
-                <p class="text-gray-600 pt-1 ftmore mb-1">We study the data. We study various perspectives of data to understand sociocultural phenomena and engineering studies on the creation and use of data.</p>
+                <p class="text-gray-600 pt-1 mb-1">We study the data. We study various perspectives of data to understand sociocultural phenomena and engineering studies on the creation and use of data.</p>
               </div>
             </div>
         </div>
       </div>
 
-      <!--Contant Us -->
+      <!--Contact Us -->
+      <div class="pt-16 md:pt-24 flex justify-center items-center max-w-6xl mx-auto px-6 pb-12 md:pb-16">
+        <div class="text-xl md:text-4xl text-gray-600 text-center font-medium poppins pb-3 border-b-4 border-violet-400">Contact Us</div>
+      </div>
+
+      <div class="max-w-6xl mx-auto px-6 pt-5 mb-16">
+        <div class="back-purple mx-20 rounded-lg w-auto h-80 hover:drop-shadow-lg transition duration-200">
+          <div>
+            dkssu
+          </div>
+        </div>
+
+      </div>
+      
 
     </div>
   </div>

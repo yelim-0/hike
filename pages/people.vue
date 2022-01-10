@@ -4,7 +4,7 @@
             <div class="text-3xl md:text-4xl text-gray-800 font-medium poppins pb-3 border-b-4 border-violet-400">Director</div>
         </div>
 
-        <div class="pt-12 md:pt-16 max-w-6xl mx-auto px-20">
+        <div class="pt-12 md:pt-16 max-w-6xl mx-auto px-6 md:px-20">
             <div class="">
                 <div v-for="leadm of Lead" :key="leadm">
                     <div class="max-x-3xl mx-auto md:flex md:justify-between md:items-center group">
@@ -22,9 +22,18 @@
                                 <div class="text-sm md:text-base poppins text-gray-800">
                                     Global Information Systems and Large-scale Data, specifically in the following area: 
                                     <ul>
-                                        <li>• Knowledge Graph, including Data to Knowledge, Government Data and Open Data</li>
-                                        <li>• Artificial Intelligence, including Machine Learning for Large-scale Data Processing</li>
-                                        <li>• Data Science, including Large-scale Data Anlytics and Visualizations</li>
+                                        <li class="flex">
+                                            <div class="pr-3 md:pr-5">•</div>
+                                            <div>Knowledge Graph, including Data to Knowledge, Government Data and Open Data</div>
+                                        </li>
+                                        <li class="flex">
+                                            <div class="pr-3 md:pr-5">•</div> 
+                                            <div>Artificial Intelligence, including Machine Learning for Large-scale Data Processing</div>
+                                        </li>
+                                        <li class="flex">
+                                            <div class="pr-3 md:pr-5">•</div> 
+                                            <div>Data Science, including Large-scale Data Analytics and Visualizations</div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

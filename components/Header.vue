@@ -19,7 +19,7 @@
                     <li class="hidden md:block text-gray-500 pl-3 hover:text-gray-800 transition hover:duration-300 font-light">
                         <nuxt-link :to="{path: '/'}" replace class="poppins">Home</nuxt-link>
                     </li>
-                    <li class="hidden md:block text-gray-500 pl-3 hover:text-gray-800 transition hover:duration-300 font-light">
+                    <li class="hidden md:block text-gray-500 hover:text-gray-800 transition hover:duration-300 font-light">
                         <nuxt-link :to="{path: '/people'}" replace class="poppins">People</nuxt-link>
                     </li>
                     <li class="hidden md:block poppins text-gray-500 hover:text-gray-800 transition hover:duration-300 font-light">
