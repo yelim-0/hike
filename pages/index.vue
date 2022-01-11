@@ -104,9 +104,31 @@
       </div>
 
       <div class="max-w-6xl mx-auto px-6 pt-5 mb-16">
-        <div class="back-purple mx-20 rounded-lg w-auto h-80 hover:drop-shadow-lg transition duration-200">
-          <div>
-            dkssu
+        <div class="px-6 pt-10 pb-8 md:mx-20 rounded-lg w-auto h-auto bg-white shadow-xl ring-1 ring-gray-900/5">
+          <div class="max-w-md mx-auto">
+            <div class="md:py-8 text-base leading-7 space-y-6 text-gray-600">
+              <ul class="space-y-4">
+                <li class="flex items-center">
+                  <p>
+                    <span class="text-gray-700 text-lg font-semibold keepall pr-1">ADDRESS</span>
+                    <span class="">1406, 303 Building, Chung-Ang University, 84 Heukseok-ro, Dongjak-gu, Seoul, Korea</span>
+                  </p>
+                </li>
+                <li class="flex items-center">
+                  <p>
+                    <span class="text-gray-700 text-lg font-semibold keepall pr-1">EMAIL</span>
+                    <span class="hover:underline"><a href="mailto:hake.lab@gmail.com">hike.lab@gmail.com</a></span>
+                  </p>
+                </li>
+                <li class="flex items-center">
+                  <p>
+                    <span class="text-gray-700 text-lg font-semibold keepall pr-1">WEBSITE</span>
+                    <span class="hover:underline"><a href="http://hike.cau.ac.kr">http://hike.cau.ac.kr</a></span>
+                  </p>
+                </li>
+              </ul>
+              <p class="keepall">Chung-Ang University is located in the heart of Seoul. Two subway lines link CAU with downtown Seoul. The subway stations near CAU are Sangdo Station on Line 7 and Heukseok Station on Line 9. By subway, downtown Seoul is 30 minutes away from CAU.</p>
+            </div>
           </div>
         </div>
 
@@ -134,14 +156,11 @@ export default {
 }
 
 .research-box{
-  @apply h-auto w-auto hover:drop-shadow-lg transition duration-200;
-  background-color: #E9E6EF;
-  border-radius: 0.6rem;
+  @apply h-auto w-auto bg-white shadow-xl ring-1 ring-gray-900/5 rounded-lg;
 }
 
 .research-card{
-  @apply rounded-lg h-auto py-5 px-6 mb-3;
-  background-color: #E9E6EF;
+  @apply rounded-lg h-auto py-5 px-6 mb-3 bg-white shadow-xl ring-1 ring-gray-900/5;
 }
 
 .featbox {

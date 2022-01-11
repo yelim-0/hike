@@ -15,7 +15,7 @@
                         </div>
                         <div class="mx-auto pl-0 md:pl-12">
                             <div class="">
-                                <div class="text-center md:text-left font-semibold text-lg md:text-xl poppins text-gray-800 group-hover:underline">{{leadm.name}}</div>
+                                <div class="text-center md:text-left font-semibold text-lg md:text-xl poppins text-gray-800">{{leadm.name}}</div>
                                 <div class="text-center md:text-left text-sm md:text-base poppins text-gray-800 mb-5">
                                     <a href="malito:haklaekim@gmail.com" class="hover:underline">haklaekim@gmail.com</a>
                                 </div>
