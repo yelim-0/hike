@@ -24,52 +24,55 @@
                                     <p class="mb-1 md:mb-1.5 text-base text-gray-600">{{ journal.author }}</p>
                                     <p class="mb-1 md:mb-1.5 text-base text-gray-600 custom-text">{{ journal.description }}</p>
                                     <div class="flex flex-row text-violet-400 text-sm">
-                                        <div class="flex hover:text-violet-300 transition duration-200 items-center">
+                                        <div v-if="link" class="flex hover:text-violet-300 transition duration-200 items-center">
                                             <div class="pr-1"><Link /></div>
-                                            <div class="pr-3"><a :href="require(`${journal.link}`)" target="_blank">Link</a></div>
+                                            <div class="pr-3"><a :href="`${journal.link}`" target="_blank">Link</a></div>
                                         </div>
+                                        <div v-else></div>
                                         <div class="flex hover:text-violet-300 transition duration-200 items-center">
                                             <div class="pr-1"><Code /></div>
-                                            <div class="pr-3"><a href="`${journal.Code}`" target="_blank">Code</a></div>
+                                            <div class="pr-3"><a :href="`${journal.link}`" target="_blank">Code</a></div>
                                         </div>
                                         <div class="flex hover:text-violet-300 transition duration-200 items-center">
                                             <div class="pr-1"><Slide /></div>
-                                            <div class="pr-3"><a href="`${journal.link}`" target="_blank">Slides</a></div>
+                                            <div class="pr-3"><a :href="`${journal.link}`" target="_blank">Slides</a></div>
                                         </div>
                                         <div class="flex hover:text-violet-300 transition duration-200 items-center">
                                             <div class="pr-1"><Video /></div>
                                             <div class="pr-3"><a href="`${journal.link}`" target="_blank">Video</a></div>
                                         </div>
-                                    </div>    
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
 
         <!-- else -->
         <div class="block md:hidden">
-            <div class="max-w-6xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6">
-                <div class="group" v-for="journal of intJournals" :key="journal">
-                    <div :to='`article/${journal.slug}`'>
-                        <div class="article-inner flex justify-between items-center py-5 md:py-8 border-gray-600">
-                        <div class="pr-4">
-                            <h2 class="mb-1 text-base font-medium poppins text-gray-800">{{ journal.title }}</h2>
-                            <p class="mb-1 text-sm text-gray-600">{{journal.author}}</p>
-                            <p class=" text-sm text-gray-600 custom-text">{{journal.description}}</p>
-                        </div>
+            <div class="flex flex-col">
+
+                <div class="mt-5 mx-auto px-6 flex justify-end"> 
+                    <div class="pt-5 poppins text-base text-center text-violet-400 tracking-wider">International<br> Journal</div>
+                </div>
+
+                <div class="max-w-6xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6">
+                    <div class="group" v-for="journal of intJournals" :key="journal">
+                        <div :to='`article/${journal.slug}`'>
+                            <div class="article-inner flex justify-between items-center py-5 md:py-8 border-gray-600">
+                            <div>
+                                <h2 class="mb-1 text-base font-medium poppins text-gray-800">{{ journal.title }}</h2>
+                                <p class="mb-1 text-sm text-gray-600">{{journal.author}}</p>
+                                <p class=" text-sm text-gray-600 custom-text">{{journal.description}}</p>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
 
     </div>
@@ -81,10 +84,16 @@ export default {
     const intJournals = await $content('publications', params)
       .sortBy('createdAt', 'desc')
       .fetch();
+
+    const link = await $content('publications', params)
+          .only('link')
+          .fetch();
+
     return {
-      intJournals
+      intJournals, link
     }
   },
+  
 }
 </script>
 
