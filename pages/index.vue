@@ -117,7 +117,7 @@
                 <li class="flex items-center">
                   <p>
                     <span class="text-gray-700 text-lg font-semibold keepall pr-1">EMAIL</span>
-                    <span class="hover:underline"><a href="mailto:hake.lab@gmail.com">hike.lab@gmail.com</a></span>
+                    <span class="hover:underline"><a href="mailto:hike.lab@gmail.com">hike.lab@gmail.com</a></span>
                   </p>
                 </li>
                 <li class="flex items-center">

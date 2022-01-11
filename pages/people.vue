@@ -17,7 +17,7 @@
                             <div class="">
                                 <div class="text-center md:text-left font-semibold text-lg md:text-xl poppins text-gray-800">{{leadm.name}}</div>
                                 <div class="text-center md:text-left text-sm md:text-base poppins text-gray-800 mb-5">
-                                    <a href="malito:haklaekim@gmail.com" class="hover:underline">haklaekim@gmail.com</a>
+                                    <span class="hover:underline"><a href="malito:haklaekim@gmail.com">haklaekim@gmail.com</a></span>
                                 </div>
                                 <div class="text-sm md:text-base poppins text-gray-800">
                                     Global Information Systems and Large-scale Data, specifically in the following area: 
@@ -58,7 +58,9 @@
                 <div>
                     <div class="font-semibold text-lg md:text-xl text-center poppins text-gray-800 group-hover:underline">{{imember.name}}</div>
                     <div class="text-sm md:text-sm text-center poppins text-gray-800">{{imember.role}}</div>
-                    <div class="text-sm md:text-sm text-center poppins text-gray-800">{{imember.email}}</div>
+                    <div class="text-sm md:text-sm text-center poppins text-gray-800">
+                        {{imember.email}}
+                    </div>
                     <div class="text-sm md:text-sm text-center poppins text-gray-800">{{imember.interests}}</div>
                 </div>
             </div>
