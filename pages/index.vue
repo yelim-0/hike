@@ -117,7 +117,7 @@
                 <li class="flex items-center">
                   <p>
                     <span class="text-gray-700 text-lg font-semibold keepall pr-1">EMAIL</span>
-                    <span class="hover:underline"><a href="mailto:hike.lab@gmail.com">hike.lab@gmail.com</a></span>
+                    <span class="hover:underline"><a href="mailto:hike.lab@gmail.com">hike.cau@gmail.com</a></span>
                   </p>
                 </li>
                 <li class="flex items-center">
@@ -160,7 +160,7 @@ export default {
 }
 
 .research-card{
-  @apply rounded-lg h-auto py-5 px-6 mb-3 bg-white shadow-xl ring-1 ring-gray-900/5;
+  @apply rounded-lg h-auto py-5 px-6 mb-6 bg-white shadow-xl ring-1 ring-gray-900/5;
 }
 
 .featbox {

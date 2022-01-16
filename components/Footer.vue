@@ -2,21 +2,49 @@
     <footer class="w-full bg-gray-50">
         <div class="max-w-6xl mx-auto pt-11 pb-14 md:pt-11 md:pb-24 px-2 md:px-5 border-t border-gray-300 flex flex-col md:flex-row items-center md:items-end justify-start md:justify-between">
             
-            <div class="flex md:hidden justify-center items-center pb-9">
+            <!-- else -->
+            <div class="md:hidden block flex flex-col px-3">
+                <ul class="mb-1.5">
+                    <li class="mb-3 font-medium text-gray-700 text-center">About</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="/">HIKE</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="http://bike.snu.ac.kr/" target="blank">BIKE Lab</a></li>
+                </ul>
+
+                <ul class="mb-1.5">
+                    <li class="mb-3 font-medium text-gray-700 text-center">Channels</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="https://github.com/hike-lab" target="blank">GitHub</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="#">Discourse</a></li>
+                </ul>
+
+                <ul class="mb-1.5">
+                    <li class="mb-3 font-medium text-gray-700 text-center">Collaboration</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="http://okfn.kr/projects/covid-19-our-memory/" target="blank">Team.Cayley</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="http://okfn.kr/" target="blank">Open Knowledge Korea</a></li>
+                </ul>
+
+                <ul class="mb-1.5">
+                    <li class="mb-3 font-medium text-gray-700 text-center">External Links</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="http://www.cau.ac.kr/" target="blank">Chung-Ang University</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="http://lis.cau.ac.kr/" target="blank">Library and<br>Information Science</a></li>
+                </ul>
+            </div>    
+
+            <div class="flex md:hidden justify-center items-center py-9">
                 <HikeLogo class="w-10 h-10"/>
             </div>
 
+            <!-- media query -->    
             <div class="hidden md:flex justify-around md:justify-start px-8 md:px-0 items-start">
                 <ul class="ml-0 w-24 md:w-24 md:m-0">
                     <li class="mb-3 font-medium text-gray-700">About</li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="#" target="blank">HIKE</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="/" target="blank">HIKE</a></li>
                     <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="http://bike.snu.ac.kr/" target="blank">BIKE Lab</a></li>
                 </ul>
 
                 <ul class="w-24 md:w-28 md:ml-0 md:m-0">
                     <li class="mb-3 font-medium text-gray-700">Channels</li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="mailto:haklaekim@gmail.com">Email</a></li>
                     <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://github.com/hike-lab" target="blank">GitHub</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="#">Discourse</a></li>
                 </ul>
 
                 <ul class="w-24 md:w-48 md:ml-0 md:m-0">
@@ -33,8 +61,8 @@
             </div>
 
             <div>
-                <div class="text-sm text-gray-500 mt-8 md:mt-0 mb-3">
-                    ⓒ 2022 HIKE Lab. All Rights Reserved.
+                <div class="text-sm text-gray-500 mt-3 md:mt-0 mb-3 text-center md:text-right">
+                    ⓒ 2022 HIKE Lab. <br> All Rights Reserved.
                 </div>
             </div>
 

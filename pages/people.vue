@@ -59,7 +59,7 @@
                     <div class="font-semibold text-lg md:text-xl text-center poppins text-gray-800 group-hover:underline">{{imember.name}}</div>
                     <div class="text-sm md:text-sm text-center poppins text-gray-800">{{imember.role}}</div>
                     <div class="text-sm md:text-sm text-center poppins text-gray-800">
-                        {{imember.email}}
+                        <a :href="`mailto:${imember.email}`" target="_blank" class="hover:underline">{{imember.email}}</a>
                     </div>
                     <div class="text-sm md:text-sm text-center poppins text-gray-800">{{imember.interests}}</div>
                 </div>
