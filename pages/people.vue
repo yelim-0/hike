@@ -16,10 +16,10 @@
                         <div class="mx-auto pl-0 md:pl-12">
                             <div class="">
                                 <div class="text-center md:text-left font-semibold text-lg md:text-xl poppins text-gray-800">{{leadm.name}}</div>
-                                <div class="text-center md:text-left text-sm md:text-base poppins text-gray-800 mb-5">
+                                <div class="text-center md:text-left text-base md:text-base poppins text-gray-800 mb-5">
                                     <span class="hover:underline"><a href="malito:haklaekim@gmail.com">haklaekim@gmail.com</a></span>
                                 </div>
-                                <div class="text-sm md:text-base poppins text-gray-800">
+                                <div class="text-base poppins text-gray-800">
                                     Global Information Systems and Large-scale Data, specifically in the following area: 
                                     <ul>
                                         <li class="flex">
@@ -57,11 +57,11 @@
                 </div>
                 <div>
                     <div class="font-semibold text-lg md:text-xl text-center poppins text-gray-800 group-hover:underline">{{imember.name}}</div>
-                    <div class="text-sm md:text-sm text-center poppins text-gray-800">{{imember.role}}</div>
-                    <div class="text-sm md:text-sm text-center poppins text-gray-800">
+                    <div class="text-base text-center poppins text-gray-800">{{imember.role}}</div>
+                    <div class="text-base text-center poppins text-gray-800">
                         <a :href="`mailto:${imember.email}`" target="_blank" class="hover:underline">{{imember.email}}</a>
                     </div>
-                    <div class="text-sm md:text-sm text-center poppins text-gray-800">{{imember.interests}}</div>
+                    <div class="text-sm text-center poppins text-gray-600">{{imember.interests}}</div>
                 </div>
             </div>
         </div>

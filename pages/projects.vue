@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="max-w-6xl mx-auto">
         <div class="pt-16 md:pt-44 flex justify-center items-center max-w-6xl mx-auto px-6 mb-6 md:mb-12">
             <div class="text-3xl md:text-4xl text-gray-800 font-medium poppins pb-3 border-b-4 border-violet-400">Projects</div>
         </div>
@@ -25,7 +25,7 @@
                 <div>
                     <div class="nthz h-72 py-5 px-6 relative">
                         <div>
-                            <p class="text-xs text-gray-500">{{project.year}} | {{ project.category }}</p>
+                            <p class="text-sm text-gray-500">{{project.year}} | {{ project.category }}</p>
                             <p class="text-base text-gray-700 font-bold pt-1 mb-2">{{ project.title }}</p>
                             <p class="text-gray-600 pt-1 ftmore mb-1">{{ project.description }}</p>
                         </div>
