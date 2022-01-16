@@ -13,7 +13,7 @@
             <div class="flex flex-row">
 
                 <div class="basis-1/3 mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6 flex justify-end"> 
-                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">International<br> Journal</div>
+                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">International<br> Journals</div>
                 </div>   
 
                 <div class="basis-2/3 max-w-6xl flex flex-col mt-5 md:mt-8 pb-14 md:pb-16 mx-auto px-6">
@@ -55,7 +55,7 @@
             <div class="flex flex-row">
 
                 <div class="basis-1/3 mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6 flex justify-end"> 
-                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Domestic<br> Journal</div>
+                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Domestic<br> Journals</div>
                 </div>   
 
                 <div class="basis-2/3 max-w-6xl flex flex-col mt-5 md:mt-8 pb-14 md:pb-16 mx-auto px-6">
@@ -83,7 +83,7 @@
             <div class="flex flex-row">
 
                 <div class="basis-1/3 mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6 flex justify-end"> 
-                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">International<br> Conference</div>
+                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">International<br> Conferences</div>
                 </div>   
 
                 <div class="basis-2/3 max-w-6xl flex flex-col mt-5 md:mt-8 pb-14 md:pb-16 mx-auto px-6">
@@ -112,7 +112,7 @@
             <div class="flex flex-row">
 
                 <div class="basis-1/3 mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6 flex justify-end"> 
-                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Domestic<br> Conference</div>
+                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Domestic<br> Conferences</div>
                 </div>   
 
                 <div class="basis-2/3 max-w-6xl flex flex-col mt-5 md:mt-8 pb-14 md:pb-16 mx-auto px-6">
@@ -141,7 +141,7 @@
             <div class="flex flex-row">
 
                 <div class="basis-1/3 mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6 flex justify-end"> 
-                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Book<br> Chapter</div>
+                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Book<br> Chapters</div>
                 </div>   
 
                 <div class="basis-2/3 max-w-6xl flex flex-col mt-5 md:mt-8 pb-14 md:pb-16 mx-auto px-6">
@@ -170,7 +170,7 @@
             <div class="flex flex-row">
 
                 <div class="basis-1/3 mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6 flex justify-end"> 
-                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Workshop</div>
+                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Workshops</div>
                 </div>   
 
                 <div class="basis-2/3 max-w-6xl flex flex-col mt-5 md:mt-8 pb-14 md:pb-16 mx-auto px-6">
@@ -199,7 +199,7 @@
             <div class="flex flex-row">
 
                 <div class="basis-1/3 mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6 flex justify-end"> 
-                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Poster</div>
+                    <div class="py-5 md:py-4 poppins text-base md:text-lg text-right text-violet-400 tracking-wider">Posters</div>
                 </div>   
 
                 <div class="basis-2/3 max-w-6xl flex flex-col mt-5 md:mt-8 pb-14 md:pb-16 mx-auto px-6">
@@ -234,7 +234,7 @@
             <div class="flex flex-col">
 
                 <div class="mt-5 mx-auto px-6 flex justify-end"> 
-                    <div class="pt-5 poppins text-lg text-center text-violet-400 tracking-wider">International<br> Journal</div>
+                    <div class="pt-5 poppins text-lg text-center text-violet-400 tracking-wider">International<br> Journals</div>
                 </div>
 
                 <div class="max-w-6xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 mx-auto px-6">
@@ -262,7 +262,7 @@
             <div class="flex flex-col">
 
                 <div class="mx-auto px-6 flex justify-end"> 
-                    <div class="pt-5 poppins text-lg text-center text-violet-400 tracking-wider">Domestic<br> Journal</div>
+                    <div class="pt-5 poppins text-lg text-center text-violet-400 tracking-wider">Domestic<br> Journals</div>
                 </div>
 
                 <div class="max-w-6xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 mx-auto px-6">
@@ -374,7 +374,7 @@
             <div class="flex flex-col">
 
                 <div class="mt-5 mx-auto px-6 flex justify-end"> 
-                    <div class="poppins text-lg text-center text-violet-400 tracking-wider">Workshop</div>
+                    <div class="poppins text-lg text-center text-violet-400 tracking-wider">Workshops</div>
                 </div>
 
                 <div class="max-w-6xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 mx-auto px-6">
@@ -402,7 +402,7 @@
             <div class="flex flex-col">
 
                 <div class="mt-5 mx-auto px-6 flex justify-end"> 
-                    <div class="poppins text-lg text-center text-violet-400 tracking-wider">Poster</div>
+                    <div class="poppins text-lg text-center text-violet-400 tracking-wider">Posters</div>
                 </div>
 
                 <div class="max-w-6xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 mx-auto px-6">
