@@ -27,12 +27,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://raw.githubusercontent.com/givemetarte/hike/main/assets/images/hike-logo-sm.png'
+        content: 'https://raw.githubusercontent.com/givemetarte/hike/main/assets/images/thumbnail.png'
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: 'https://raw.githubusercontent.com/givemetarte/hike/main/assets/images/hike-logo-sm.png'
+        content: 'https://raw.githubusercontent.com/givemetarte/hike/main/assets/images/thumbnail.png'
       },
       {
         hid: 'og:image:alt',
