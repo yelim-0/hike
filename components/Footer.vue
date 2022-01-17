@@ -13,7 +13,7 @@
                 <ul class="mb-1.5">
                     <li class="mb-3 font-medium text-gray-700 text-center">Channels</li>
                     <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="https://github.com/hike-lab" target="blank">GitHub</a></li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="#">Discourse</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="http://discuss.datahub.kr">Discuss</a></li>
                 </ul>
 
                 <ul class="mb-1.5">
@@ -44,7 +44,7 @@
                 <ul class="w-24 md:w-28 md:ml-0 md:m-0">
                     <li class="mb-3 font-medium text-gray-700">Channels</li>
                     <li class="mb-1.5 font-normal text-gray-500 hover:underline text-base"><a href="https://github.com/hike-lab" target="blank">GitHub</a></li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-base"><a href="#">Discourse</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-base"><a href="http://discuss.datahub.kr">Discuss</a></li>
                 </ul>
 
                 <ul class="w-24 md:w-52 md:ml-0 md:m-0">

@@ -1,6 +1,6 @@
 <template>
     <div class="max-w-6xl mx-auto">
-        <div class="pt-16 md:pt-44 flex justify-center items-center max-w-6xl mx-auto px-6">
+        <div class="pt-28 md:pt-44 flex justify-center items-center max-w-6xl mx-auto px-6">
             <div class="text-3xl md:text-4xl text-gray-800 font-medium poppins pb-3 border-b-4 border-violet-400">
                 Publications
             </div>

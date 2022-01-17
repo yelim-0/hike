@@ -8,12 +8,15 @@
                 </nuxt-link>
             </div>
 
+            <!--
             <div class="md:hidden flex content-center pt-4">
                 <button @click="drawer">
                 <Menu class="mr-0.5"/>
                 </button>
             </div>
+            -->
 
+            
             <div class="flex hidden md:block py-5">
                 <ul class="flex space-x-6 text-base items-center">
                     <li class="hidden md:block text-gray-500 pl-3 hover:text-gray-800 transition hover:duration-300 font-light">
@@ -22,15 +25,30 @@
                     <li class="hidden md:block text-gray-500 hover:text-gray-800 transition hover:duration-300 font-light">
                         <nuxt-link :to="{path: '/people'}" replace class="poppins">People</nuxt-link>
                     </li>
+                    <!--
                     <li class="hidden md:block poppins text-gray-500 hover:text-gray-800 transition hover:duration-300 font-light">
                         <nuxt-link :to="{path: '/projects'}" replace class="poppins">Projects</nuxt-link>
                     </li>
+                    -->
                     <li class="hidden md:block poppins text-gray-500 hover:text-gray-800 transition hover:duration-300 font-light">
                         <nuxt-link :to="{path: '/publications'}" replace class="poppins">Publications</nuxt-link>
                     </li>
                 </ul>
             </div>
+            
 
+            <div class="flex md:hidden p-5 top-0 left-0 bg-gray-50 h-full">
+                <div>
+                    <ul class="flex flex-row font-light">
+                        <li><nuxt-link :to="{path: '/'}" replace class="text-gray-500 inline-block poppins mr-3 text-sm">Home</nuxt-link></li>
+                        <li><nuxt-link :to="{path: '/people'}" replace  class="text-gray-500 inline-block poppins mr-3 text-sm">People</nuxt-link></li>
+                        <li><nuxt-link :to="{path: '/publications'}" replace  class="text-gray-500 inline-block poppins text-sm">Publications</nuxt-link></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!--
+        
             <transition
                 enter-class="opacity-0"
                 enter-active-class="ease-out transition-medium"
@@ -64,38 +82,40 @@
                 </ul>
 
             </aside>
+            -->
+            
         </div>
     </div>
 </template>
 
 <script>
     export default {
-    data() {
-        return {
-        isOpen: false
-        };
-    },
-    methods: {
-        drawer() {
-        this.isOpen = !this.isOpen;
-        }
-    },
-    watch: {
-        isOpen: {
-        immediate: true,
-        handler(isOpen) {
-            if (process.client) {
-            if (isOpen) document.body.style.setProperty("overflow", "hidden");
-            else document.body.style.removeProperty("overflow");
-            }
-        }
-        }
-    },
-    mounted() {
-        document.addEventListener("keydown", e => {
-        if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
-        });
-    }
+    // data() {
+    //    return {
+    //    isOpen: false
+    //    };
+    //},
+    //methods: {
+    //    drawer() {
+    //    this.isOpen = !this.isOpen;
+    //    }
+    //},
+    //watch: {
+    //    isOpen: {
+    //    immediate: true,
+    //    handler(isOpen) {
+    //        if (process.client) {
+    //        if (isOpen) document.body.style.setProperty("overflow", "hidden");
+    //       else document.body.style.removeProperty("overflow");
+    //      }
+    //    }
+    //  }
+    //},
+    //mounted() {
+    //    document.addEventListener("keydown", e => {
+    //    if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
+    //    });
+    //}
     };
 </script>
 
