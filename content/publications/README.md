@@ -1,6 +1,6 @@
 # 서지정보 작성하기
 
-아래의 정보를 작성해주세요. 파일제목과 slug는 같아야 합니다. 파일 생성시 yaml 확장자로 생성하세요.
+현재의 디렉토리(/content/publications)에 아래의 정보를 작성해주세요. 파일제목과 slug는 같아야 합니다. 파일 생성시 yaml 확장자로 생성하세요.
 
 - classification: 카테고리 Articles, Domestic Journals, Conferences, Domestic Conferences, Workshops, Book Chapters, Posters 중 선택하여 작성
 - publishedDate: 출판된 연도와 월, 일 작성. 형식은 yyyy. mm. dd. 로 작성
