@@ -6,7 +6,7 @@
             <div class="md:hidden block flex flex-col px-3 text-base">
                 <ul class="mb-1.5">
                     <li class="mb-3 font-medium text-gray-700 text-center">About</li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="/">HIKE</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="/">HIKE Lab</a></li>
                     <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm text-center"><a href="http://bike.snu.ac.kr/" target="blank">BIKE Lab</a></li>
                 </ul>
 
@@ -37,7 +37,7 @@
             <div class="hidden md:flex justify-around md:justify-start px-8 md:px-0 items-start">
                 <ul class="ml-0 w-24 md:w-24 md:m-0">
                     <li class="mb-3 font-medium text-gray-700">About</li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-base"><a href="/" target="blank">HIKE</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline text-base"><a href="/" target="blank">HIKE Lab</a></li>
                     <li class="mb-1.5 font-normal text-gray-500 hover:underline text-base"><a href="http://bike.snu.ac.kr/" target="blank">BIKE Lab</a></li>
                 </ul>
 
