@@ -3,8 +3,10 @@
 현재의 디렉토리(/content/publications)에 아래의 정보를 작성해주세요. 파일 생성시 yaml 확장자로 생성하세요. 논문 인용 방법은 IEEE를 따릅니다.
 
 - 파일제목은 [유형]논문의 대표단어.yaml로 생성합니다.
+  유형: IJ(International Journals), DJ(Domestic Journals), IC(International Conferences), DC(Domestic Conferences), W(Workshops), B(Book Chapters), P(Posters)를 사용해주세요.
+  예시: [IJ]knowledge-base.yaml
 
-* classification: 카테고리 Articles, Domestic Journals, Conferences, Domestic Conferences, Workshops, Book Chapters, Posters 중 선택하여 작성
+* classification: 카테고리 Journals(International Journals), Domestic Journals, Conferences(International Conferences), Domestic Conferences, Workshops, Book Chapters, Posters 중 선택하여 작성
 * publishedDate: 출판된 연도와 월, 일 작성. 형식은 yyyy. mm. dd. 로 작성
 * title: 제목
 * author: 저자

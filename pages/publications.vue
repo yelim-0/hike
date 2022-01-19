@@ -494,7 +494,7 @@
 export default {
   async asyncData({ $content, params }) {
     const intJournals = await $content('publications', params)
-      .where( {classification:'Articles'})
+      .where( {classification:'Journals'})
       .sortBy('publishedDate', 'desc')
       .fetch();
     
