@@ -1,6 +1,6 @@
 <template>
     <div class="w-full bg-gray-50 z-40">
-        <div class="mx-auto flex items-center justify-between px-4">
+        <div class="mx-auto flex items-center justify-between px-5">
             
             <div class="ml-0 md:ml-0 flex w-full pt-4">
                 <nuxt-link to="/">
@@ -37,7 +37,7 @@
             </div>
             
 
-            <div class="flex md:hidden p-5 top-0 left-0 bg-gray-50 h-full">
+            <div class="flex md:hidden py-5 top-0 left-0 bg-gray-50 h-full">
                 <div>
                     <ul class="flex flex-row font-light">
                         <li><nuxt-link :to="{path: '/'}" replace class="text-gray-500 inline-block poppins mr-3 text-sm">Home</nuxt-link></li>
