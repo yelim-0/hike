@@ -152,6 +152,7 @@
                             <div class="flex justify-between items-center py-5 md:py-4 border-gray-600">
                                 <div class="pr-4">
                                     <h2 class="mb-1 md:mb-1.5 text-lg font-medium text-gray-800">{{ journal.title }}</h2>
+                                    <h2 class="mb-1 md:mb-1.5 text-base text-gray-600 italic">{{ journal.subtitle }}</h2>
                                     <p class="mb-1 md:mb-1.5 text-base text-gray-600">{{ journal.author }}</p>
                                     <p class="mb-1 md:mb-1.5 text-base text-gray-600 custom-text">{{ journal.description }}</p>
                                     <div class="flex flex-row text-violet-400 text-sm">
@@ -387,6 +388,7 @@
                             <div class="article-inner flex justify-between items-center py-5 md:py-8 border-gray-600">
                             <div>
                                 <h2 class="mb-1 text-base font-medium poppins text-gray-800">{{ journal.title }}</h2>
+                                <p class="mb-1 text-sm text-gray-600 italic">{{journal.subtitle}}</p>
                                 <p class="mb-1 text-sm text-gray-600">{{journal.author}}</p>
                                 <p class="mb-1 text-sm text-gray-600 custom-text">{{journal.description}}</p>
                                 <div class="flex flex-row text-violet-400 text-sm">
