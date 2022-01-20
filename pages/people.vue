@@ -61,7 +61,7 @@
                     <div class="text-base text-center poppins text-gray-800">
                         <a :href="`mailto:${imember.email}`" target="_blank" class="hover:underline">{{imember.email}}</a>
                     </div>
-                    <div class="text-sm text-center poppins text-gray-600">{{imember.interests}}</div>
+                    <div class="text-sm text-center poppins text-gray-800">{{imember.interests}}</div>
                 </div>
             </div>
         </div>
