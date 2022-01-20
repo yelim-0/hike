@@ -14,7 +14,7 @@
 - publishedDate: 출판된 연도와 월, 일 작성. 형식은 yyyy. mm. dd. 로 작성
 - title: 제목
 - subtitle: 국내 논문 또는 컨퍼런스의 경우, 제목의 영문명 작성
-- author: 저자(풀네임으로 작성, 미들 네임의 경우 생략 또는 한글자로 줄임 가능)
+- author: 저자(풀네임으로 작성, 미들 네임의 경우 한글자로 줄임 가능)
 - description: 서지 정보 작성
 - link: 출판된 서지의 링크
 
@@ -22,7 +22,7 @@
 classification: Conferences
 publishedDate: 2007. 11. 02-05.
 title: A Combinational Method to Determining Identical Entities from Heterogeneous Knowledge Graphs 
-author: H. Kim
+author: Haklae Kim
 description: Journal of Information Science Theory and Practice, vol. 6, no. 3, pp. 6–15, Sep. 2018.
 link: https://ieeexplore.ieee.org/abstract/document/4407341
 ```
