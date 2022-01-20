@@ -14,6 +14,8 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Hyper Interlinked Knowledge Engineering Lab., Chung-Ang University' },
       { name: 'format-detection', content: 'telephone=no' },
+      // for Google Search Console
+      { name: "google-site-verification", content: "0AXwTt8TOo6BK7UpXXTh6b5njsIO-DLB98FU-p7-nP0"},
       // Twitter
       // Test on: https://cards-dev.twitter.com/validator
       {
